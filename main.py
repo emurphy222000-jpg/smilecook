@@ -13,9 +13,9 @@ url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 
 
 # Press the green button in the gutter to run the script.
-url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
+"""
 # Split-out validation dataset
 array = dataset.values
 X = array[:,0:4]
@@ -29,5 +29,4 @@ predictions = model.predict(X_validation)
 print(accuracy_score(Y_validation, predictions))
 print(confusion_matrix(Y_validation, predictions))
 print(classification_report(Y_validation, predictions))
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+"""
