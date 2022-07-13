@@ -8,6 +8,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.svm import SVC
+"""
 # Load dataset
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 
@@ -15,7 +16,7 @@ url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 # Press the green button in the gutter to run the script.
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
-"""
+
 # Split-out validation dataset
 array = dataset.values
 X = array[:,0:4]
