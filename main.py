@@ -21,5 +21,5 @@ def execute_model() :
 # 	Evaluate predictions
 	return accuracy_score(Y_validation, predictions), confusion_matrix(Y_validation, predictions),classification_report(Y_validation, predictions)
 
-if __name__  == "__main__:
-	execute_model()
+if __name__ == "__main__":
+    a,b,c=execute_model()
