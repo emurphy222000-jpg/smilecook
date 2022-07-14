@@ -23,3 +23,4 @@ def execute_model() :
 
 if __name__ == "__main__":
     a,b,c=execute_model()
+print(a,b,c)
